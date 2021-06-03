@@ -1,0 +1,54 @@
+{
+    "Empleados": [
+        {
+            "EmployeeID": 1,
+            "LastName": "Garcia",
+            "FirstName": "Juan",
+            "Title": "Representante de ventas",
+            "City": "Balcarce",
+            "Country": "Argentina",
+            "SueldoBruto" : "120.000",
+            "Moneda": "Ars"
+        },
+        {
+            "EmployeeID": 2,
+            "LastName": "Saenz",
+            "FirstName": "Laura",
+            "Title": "Contadora",
+            "City": "Tandil",
+            "Country": "Argentina",
+            "SueldoBruto" : "150.000",
+            "Moneda": "Ars"
+        },
+        {
+            "EmployeeID": 3,
+            "LastName": "Monroe",
+            "FirstName": "Carlos",
+            "Title": "Técnico",
+            "City": "Mar del Plata",
+            "Country": "Argentina",
+            "SueldoBruto" : "90.000",
+            "Moneda": "Ars"
+        },
+        {
+            "EmployeeID": 4,
+            "LastName": "Lorenzo",
+            "FirstName": "Maria",
+            "Title": "Vendedora",
+            "City": "Junin",
+            "Country": "Argentina",
+            "SueldoBruto" : "140.000",
+            "Moneda": "Ars"
+        },
+        {
+            "EmployeeID": 5,
+            "LastName": "DiPalma",
+            "FirstName": "Marcos",
+            "Title": "Logistica",
+            "City": "Bragado",
+            "Country": "Argentina",
+            "SueldoBruto" : "1.000",
+            "Moneda": "Usd"
+        }
+    ]
+}

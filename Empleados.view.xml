@@ -1,0 +1,50 @@
+<mvc:View controllerName="app1.controller.Empleados" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+    <Shell id="shell">
+        <App id="app">
+            <pages>
+                <Page id="page" title="{i18n>title}" >
+                    <content>
+                        <Panel>
+                            <Table id="tab1" headerText="{i18n>appTitle}" class="sapUIResponsiveMargin" width="auto" items="{emp>/Empleados}"  >
+                                <columns>
+                                    <Column>
+                                        <Text text="{i18n>columnEmployeeID}"></Text>
+                                    </Column>
+                                     <Column>
+                                        <Text text="{i18n>columnFirstName}"></Text>
+                                    </Column>
+                                     <Column>
+                                        <Text text="{i18n>columnLastName}"></Text>
+                                    </Column>
+                                     <Column>
+                                        <Text text="{i18n>columnTitle}"></Text>
+                                    </Column>
+                                     <Column>
+                                        <Text text="{i18n>columnCity}"></Text>
+                                    </Column>
+                                     <Column>
+                                        <Text text="{i18n>columnCountry}"></Text>
+                                    </Column>
+                                      <Column>
+                                        <Text text="{i18n>columnSueldoBruto}"></Text>
+                                    </Column>
+                                </columns>
+                                <items>
+                                    <ColumnListItem>
+                                        <ObjectIdentifier title="{emp>EmployeeID}"></ObjectIdentifier>
+                                        <ObjectIdentifier title="{emp>FirstName}"></ObjectIdentifier>
+                                        <ObjectIdentifier title="{emp>LastName}"></ObjectIdentifier>
+                                        <ObjectIdentifier title="{emp>Title}"></ObjectIdentifier>
+                                        <ObjectIdentifier title="{emp>City}"></ObjectIdentifier>
+                                        <ObjectIdentifier title="{emp>Country}"></ObjectIdentifier>
+                                        <ObjectNumber number="{emp>SueldoBruto}" unit="{emp>Moneda}"></ObjectNumber>
+                                    </ColumnListItem>
+                                </items>
+                            </Table>
+                        </Panel>
+                    </content>
+                </Page>
+            </pages>
+        </App>
+    </Shell>
+</mvc:View>
